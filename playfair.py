@@ -51,6 +51,7 @@ def playfair_encrypt(plain_text, key):
             cipher_text += matrix[r2][c1]
     return cipher_text
 
+# User input
 key = input("Enter key: ")
 plain = input("Enter plain text: ")
 
